@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tabpilot"
+version = "1.0.0"
+description = "Small-language-model agents with a plug-and-play frozen tabular foundation model for natural-language tabular prediction."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.12,<3.13"
+# Versions of the environment used for the paper (Python 3.12).
+dependencies = [
+  "numpy==2.3.5",
+  "openai==2.48.0",
+  "pandas==3.0.3",
+  "pydantic==2.13.4",
+  "python-dotenv==1.2.2",
+  "PyYAML==6.0.3",
+  "scikit-learn==1.9.0",
+  "scipy==1.18.0",
+  "tabpfn==9.0.0",
+  "tabpfn-extensions==0.4.3",
+]
+
+[project.optional-dependencies]
+# Serving the agents; vLLM brings its matching PyTorch build.
+serve = [
+  "vllm==0.26.0",
+]
+# Alternative TFMs (`tfm.backend: tabicl_v2 | limix_2`); TabPFN v3.5 is the default and always installed.
+tfm = [
+  "einops==0.8.2",
+  "kditransform==1.2.0",
+  "limix @ git+https://github.com/limix-ldm-ai/LimiX@516bf39",
+  "nvtx==0.2.16",
+  "skrub==0.10.1",
+  "tabicl==2.2.0",
+]
+# Training (PS-OPSD, SA-GRPO, TTRD) with ms-swift; also needs `serve` for on-policy rollouts.
+train = [
+  "accelerate==1.14.0",
+  "datasets==5.0.0",
+  "ms-swift==4.5.2",
+  "peft==0.19.1",
+  "tensorboard==2.21.0",
+  "transformers==5.14.1",
+  "trl==0.26.1",
+]
+
+[project.scripts]
+tabpilot = "tabpilot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"

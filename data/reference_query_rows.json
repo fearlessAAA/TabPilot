@@ -1,0 +1,6333 @@
+{
+ "description": "Scenarios of each TopBench Predictive Reasoning request that must be sent to the TFM. Single-point prediction: the single scenario. Decision making: every candidate. Treatment-effect analysis: the changed scenario 002, plus the reference scenario 001 only when the request does not state its outcome (reference_status implied / not_stated); evidence quotes the request text that states it. Request-side only: no outcome values.",
+ "cases": {
+  "decision_making/daily/classification/Apple_Quality_B2/Apple_Quality_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Apple_Quality_B2/Apple_Quality_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Apple_Quality_B2/Apple_Quality_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Apple_Quality_B2/Apple_Quality_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Apple_Quality_B2/Apple_Quality_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Apple_Quality_B2/Apple_Quality_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Gender_Recognition_by_Voice_B2/Gender_Recognition_by_Voice_B2_001": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Gender_Recognition_by_Voice_B2/Gender_Recognition_by_Voice_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Gender_Recognition_by_Voice_B2/Gender_Recognition_by_Voice_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Gender_Recognition_by_Voice_B2/Gender_Recognition_by_Voice_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Gender_Recognition_by_Voice_B2/Gender_Recognition_by_Voice_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Gender_Recognition_by_Voice_B2/Gender_Recognition_by_Voice_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Hotel_booking_demand_B2/Hotel_booking_demand_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Hotel_booking_demand_B2/Hotel_booking_demand_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Hotel_booking_demand_B2/Hotel_booking_demand_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Hotel_booking_demand_B2/Hotel_booking_demand_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Hotel_booking_demand_B2/Hotel_booking_demand_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Hotel_booking_demand_B2/Hotel_booking_demand_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Human_Resources_Data_Set_B2/Human_Resources_Data_Set_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Human_Resources_Data_Set_B2/Human_Resources_Data_Set_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Human_Resources_Data_Set_B2/Human_Resources_Data_Set_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Human_Resources_Data_Set_B2/Human_Resources_Data_Set_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Human_Resources_Data_Set_B2/Human_Resources_Data_Set_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Human_Resources_Data_Set_B2/Human_Resources_Data_Set_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/IBM_HR_Analytics_Employee_Attrition_&_Performance_B2/IBM_HR_Analytics_Employee_Attrition_&_Performance_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/IBM_HR_Analytics_Employee_Attrition_&_Performance_B2/IBM_HR_Analytics_Employee_Attrition_&_Performance_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/IBM_HR_Analytics_Employee_Attrition_&_Performance_B2/IBM_HR_Analytics_Employee_Attrition_&_Performance_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/IBM_HR_Analytics_Employee_Attrition_&_Performance_B2/IBM_HR_Analytics_Employee_Attrition_&_Performance_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/IBM_HR_Analytics_Employee_Attrition_&_Performance_B2/IBM_HR_Analytics_Employee_Attrition_&_Performance_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/IBM_HR_Analytics_Employee_Attrition_&_Performance_B2/IBM_HR_Analytics_Employee_Attrition_&_Performance_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Mobile_Price_Classification_B2/Mobile_Price_Classification_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Mobile_Price_Classification_B2/Mobile_Price_Classification_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Mobile_Price_Classification_B2/Mobile_Price_Classification_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Mobile_Price_Classification_B2/Mobile_Price_Classification_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Mobile_Price_Classification_B2/Mobile_Price_Classification_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Mobile_Price_Classification_B2/Mobile_Price_Classification_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Rain_in_Australia_B2/Rain_in_Australia_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Rain_in_Australia_B2/Rain_in_Australia_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Rain_in_Australia_B2/Rain_in_Australia_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Rain_in_Australia_B2/Rain_in_Australia_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Rain_in_Australia_B2/Rain_in_Australia_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Rain_in_Australia_B2/Rain_in_Australia_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Wine_Quality_Dataset_B2/Wine_Quality_Dataset_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Wine_Quality_Dataset_B2/Wine_Quality_Dataset_B2_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Wine_Quality_Dataset_B2/Wine_Quality_Dataset_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Wine_Quality_Dataset_B2/Wine_Quality_Dataset_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Wine_Quality_Dataset_B2/Wine_Quality_Dataset_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/classification/Wine_Quality_Dataset_B2/Wine_Quality_Dataset_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/100000_UK_Used_Car_Data_set_B2/100000_UK_Used_Car_Data_set_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/100000_UK_Used_Car_Data_set_B2/100000_UK_Used_Car_Data_set_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/100000_UK_Used_Car_Data_set_B2/100000_UK_Used_Car_Data_set_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/100000_UK_Used_Car_Data_set_B2/100000_UK_Used_Car_Data_set_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/100000_UK_Used_Car_Data_set_B2/100000_UK_Used_Car_Data_set_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/100000_UK_Used_Car_Data_set_B2/100000_UK_Used_Car_Data_set_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Chocolate_Bar_Ratings_B2/Chocolate_Bar_Ratings_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Chocolate_Bar_Ratings_B2/Chocolate_Bar_Ratings_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Chocolate_Bar_Ratings_B2/Chocolate_Bar_Ratings_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Chocolate_Bar_Ratings_B2/Chocolate_Bar_Ratings_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Chocolate_Bar_Ratings_B2/Chocolate_Bar_Ratings_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Chocolate_Bar_Ratings_B2/Chocolate_Bar_Ratings_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Global_YouTube_Statistics_2023_B2/Global_YouTube_Statistics_2023_B2_001": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Global_YouTube_Statistics_2023_B2/Global_YouTube_Statistics_2023_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Global_YouTube_Statistics_2023_B2/Global_YouTube_Statistics_2023_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Global_YouTube_Statistics_2023_B2/Global_YouTube_Statistics_2023_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Global_YouTube_Statistics_2023_B2/Global_YouTube_Statistics_2023_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Global_YouTube_Statistics_2023_B2/Global_YouTube_Statistics_2023_B2_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Gun_Violence_Data_B2/Gun_Violence_Data_B2_001": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Gun_Violence_Data_B2/Gun_Violence_Data_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Gun_Violence_Data_B2/Gun_Violence_Data_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Gun_Violence_Data_B2/Gun_Violence_Data_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Gun_Violence_Data_B2/Gun_Violence_Data_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Gun_Violence_Data_B2/Gun_Violence_Data_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Student_Performance_Factors_B2/Student_Performance_Factors_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Student_Performance_Factors_B2/Student_Performance_Factors_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Student_Performance_Factors_B2/Student_Performance_Factors_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Student_Performance_Factors_B2/Student_Performance_Factors_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Student_Performance_Factors_B2/Student_Performance_Factors_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/daily/regression/Student_Performance_Factors_B2/Student_Performance_Factors_B2_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Credit_Card_customers_B2/Credit_Card_customers_B2_001": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Credit_Card_customers_B2/Credit_Card_customers_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Credit_Card_customers_B2/Credit_Card_customers_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Credit_Card_customers_B2/Credit_Card_customers_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Credit_Card_customers_B2/Credit_Card_customers_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Credit_Card_customers_B2/Credit_Card_customers_B2_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Default_of_Credit_Card_Clients_Dataset_B2/Default_of_Credit_Card_Clients_Dataset_B2_001": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Default_of_Credit_Card_Clients_Dataset_B2/Default_of_Credit_Card_Clients_Dataset_B2_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Default_of_Credit_Card_Clients_Dataset_B2/Default_of_Credit_Card_Clients_Dataset_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Default_of_Credit_Card_Clients_Dataset_B2/Default_of_Credit_Card_Clients_Dataset_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Default_of_Credit_Card_Clients_Dataset_B2/Default_of_Credit_Card_Clients_Dataset_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Default_of_Credit_Card_Clients_Dataset_B2/Default_of_Credit_Card_Clients_Dataset_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Health_Insurance_Cross_Sell_Prediction_B2/Health_Insurance_Cross_Sell_Prediction_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Health_Insurance_Cross_Sell_Prediction_B2/Health_Insurance_Cross_Sell_Prediction_B2_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Health_Insurance_Cross_Sell_Prediction_B2/Health_Insurance_Cross_Sell_Prediction_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Health_Insurance_Cross_Sell_Prediction_B2/Health_Insurance_Cross_Sell_Prediction_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Health_Insurance_Cross_Sell_Prediction_B2/Health_Insurance_Cross_Sell_Prediction_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/classification/Health_Insurance_Cross_Sell_Prediction_B2/Health_Insurance_Cross_Sell_Prediction_B2_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Bitcoin_Historical_Data_B2/Bitcoin_Historical_Data_B2_001": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Bitcoin_Historical_Data_B2/Bitcoin_Historical_Data_B2_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Bitcoin_Historical_Data_B2/Bitcoin_Historical_Data_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Bitcoin_Historical_Data_B2/Bitcoin_Historical_Data_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Bitcoin_Historical_Data_B2/Bitcoin_Historical_Data_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Bitcoin_Historical_Data_B2/Bitcoin_Historical_Data_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/California_Housing_Prices_B2/California_Housing_Prices_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/California_Housing_Prices_B2/California_Housing_Prices_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/California_Housing_Prices_B2/California_Housing_Prices_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/California_Housing_Prices_B2/California_Housing_Prices_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/California_Housing_Prices_B2/California_Housing_Prices_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/California_Housing_Prices_B2/California_Housing_Prices_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Campus_Recruitment_B2/Campus_Recruitment_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Campus_Recruitment_B2/Campus_Recruitment_B2_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Campus_Recruitment_B2/Campus_Recruitment_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Campus_Recruitment_B2/Campus_Recruitment_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Campus_Recruitment_B2/Campus_Recruitment_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Campus_Recruitment_B2/Campus_Recruitment_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Diamonds_B2/Diamonds_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Diamonds_B2/Diamonds_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Diamonds_B2/Diamonds_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Diamonds_B2/Diamonds_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Diamonds_B2/Diamonds_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Diamonds_B2/Diamonds_B2_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/House_Sales_in_King_County_USA_B2/House_Sales_in_King_County_USA_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/House_Sales_in_King_County_USA_B2/House_Sales_in_King_County_USA_B2_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/House_Sales_in_King_County_USA_B2/House_Sales_in_King_County_USA_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/House_Sales_in_King_County_USA_B2/House_Sales_in_King_County_USA_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/House_Sales_in_King_County_USA_B2/House_Sales_in_King_County_USA_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/House_Sales_in_King_County_USA_B2/House_Sales_in_King_County_USA_B2_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Mall_Customer_Segmentation_Data_B2/Mall_Customer_Segmentation_Data_B2_001": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Mall_Customer_Segmentation_Data_B2/Mall_Customer_Segmentation_Data_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Mall_Customer_Segmentation_Data_B2/Mall_Customer_Segmentation_Data_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Mall_Customer_Segmentation_Data_B2/Mall_Customer_Segmentation_Data_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Mall_Customer_Segmentation_Data_B2/Mall_Customer_Segmentation_Data_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Mall_Customer_Segmentation_Data_B2/Mall_Customer_Segmentation_Data_B2_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Supermarket_store_branches_sales_analysis_B2/Supermarket_store_branches_sales_analysis_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Supermarket_store_branches_sales_analysis_B2/Supermarket_store_branches_sales_analysis_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Supermarket_store_branches_sales_analysis_B2/Supermarket_store_branches_sales_analysis_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Supermarket_store_branches_sales_analysis_B2/Supermarket_store_branches_sales_analysis_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Supermarket_store_branches_sales_analysis_B2/Supermarket_store_branches_sales_analysis_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/finance/regression/Supermarket_store_branches_sales_analysis_B2/Supermarket_store_branches_sales_analysis_B2_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B2/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B2/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B2_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B2/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B2/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B2/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B2/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Diabetes_Dataset_B2/Diabetes_Dataset_B2_001": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Diabetes_Dataset_B2/Diabetes_Dataset_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Diabetes_Dataset_B2/Diabetes_Dataset_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Diabetes_Dataset_B2/Diabetes_Dataset_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Diabetes_Dataset_B2/Diabetes_Dataset_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Diabetes_Dataset_B2/Diabetes_Dataset_B2_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Heart_Failure_Prediction_B2/Heart_Failure_Prediction_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Heart_Failure_Prediction_B2/Heart_Failure_Prediction_B2_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Heart_Failure_Prediction_B2/Heart_Failure_Prediction_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Heart_Failure_Prediction_B2/Heart_Failure_Prediction_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Heart_Failure_Prediction_B2/Heart_Failure_Prediction_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Heart_Failure_Prediction_B2/Heart_Failure_Prediction_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Indicators_of_Heart_Disease_(2022_UPDATE)_B2/Indicators_of_Heart_Disease_(2022_UPDATE)_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Indicators_of_Heart_Disease_(2022_UPDATE)_B2/Indicators_of_Heart_Disease_(2022_UPDATE)_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Indicators_of_Heart_Disease_(2022_UPDATE)_B2/Indicators_of_Heart_Disease_(2022_UPDATE)_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Indicators_of_Heart_Disease_(2022_UPDATE)_B2/Indicators_of_Heart_Disease_(2022_UPDATE)_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Indicators_of_Heart_Disease_(2022_UPDATE)_B2/Indicators_of_Heart_Disease_(2022_UPDATE)_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Indicators_of_Heart_Disease_(2022_UPDATE)_B2/Indicators_of_Heart_Disease_(2022_UPDATE)_B2_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Sleep_Health_and_Lifestyle_Dataset_B2/Sleep_Health_and_Lifestyle_Dataset_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Sleep_Health_and_Lifestyle_Dataset_B2/Sleep_Health_and_Lifestyle_Dataset_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Sleep_Health_and_Lifestyle_Dataset_B2/Sleep_Health_and_Lifestyle_Dataset_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Sleep_Health_and_Lifestyle_Dataset_B2/Sleep_Health_and_Lifestyle_Dataset_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Sleep_Health_and_Lifestyle_Dataset_B2/Sleep_Health_and_Lifestyle_Dataset_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Sleep_Health_and_Lifestyle_Dataset_B2/Sleep_Health_and_Lifestyle_Dataset_B2_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Stroke_Prediction_Dataset_B2/Stroke_Prediction_Dataset_B2_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Stroke_Prediction_Dataset_B2/Stroke_Prediction_Dataset_B2_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Stroke_Prediction_Dataset_B2/Stroke_Prediction_Dataset_B2_003": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Stroke_Prediction_Dataset_B2/Stroke_Prediction_Dataset_B2_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Stroke_Prediction_Dataset_B2/Stroke_Prediction_Dataset_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/classification/Stroke_Prediction_Dataset_B2/Stroke_Prediction_Dataset_B2_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/regression/Life_Expectancy_(WHO)_B2/Life_Expectancy_(WHO)_B2_001": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/regression/Life_Expectancy_(WHO)_B2/Life_Expectancy_(WHO)_B2_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/regression/Life_Expectancy_(WHO)_B2/Life_Expectancy_(WHO)_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/regression/Life_Expectancy_(WHO)_B2/Life_Expectancy_(WHO)_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/regression/Life_Expectancy_(WHO)_B2/Life_Expectancy_(WHO)_B2_005": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/regression/Life_Expectancy_(WHO)_B2/Life_Expectancy_(WHO)_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/regression/Medical_Cost_Personal_Datasets_B2/Medical_Cost_Personal_Datasets_B2_001": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/regression/Medical_Cost_Personal_Datasets_B2/Medical_Cost_Personal_Datasets_B2_002": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/regression/Medical_Cost_Personal_Datasets_B2/Medical_Cost_Personal_Datasets_B2_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/regression/Medical_Cost_Personal_Datasets_B2/Medical_Cost_Personal_Datasets_B2_004": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/regression/Medical_Cost_Personal_Datasets_B2/Medical_Cost_Personal_Datasets_B2_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "decision_making/medical/regression/Medical_Cost_Personal_Datasets_B2/Medical_Cost_Personal_Datasets_B2_006": {
+   "scenarios": [
+    "001",
+    "002",
+    "003"
+   ],
+   "predict": [
+    "001",
+    "002",
+    "003"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/100000_UK_Used_Car_Data_set_B1/100000_UK_Used_Car_Data_set_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/100000_UK_Used_Car_Data_set_B1/100000_UK_Used_Car_Data_set_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/100000_UK_Used_Car_Data_set_B1/100000_UK_Used_Car_Data_set_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/100000_UK_Used_Car_Data_set_B1/100000_UK_Used_Car_Data_set_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/100000_UK_Used_Car_Data_set_B1/100000_UK_Used_Car_Data_set_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/100000_UK_Used_Car_Data_set_B1/100000_UK_Used_Car_Data_set_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/100000_UK_Used_Car_Data_set_B1/100000_UK_Used_Car_Data_set_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/100000_UK_Used_Car_Data_set_B1/100000_UK_Used_Car_Data_set_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Apple_Quality_B1/Apple_Quality_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Apple_Quality_B1/Apple_Quality_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Apple_Quality_B1/Apple_Quality_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Apple_Quality_B1/Apple_Quality_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Apple_Quality_B1/Apple_Quality_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Apple_Quality_B1/Apple_Quality_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Apple_Quality_B1/Apple_Quality_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Apple_Quality_B1/Apple_Quality_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Chocolate_Bar_Ratings_B1/Chocolate_Bar_Ratings_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Chocolate_Bar_Ratings_B1/Chocolate_Bar_Ratings_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Chocolate_Bar_Ratings_B1/Chocolate_Bar_Ratings_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Chocolate_Bar_Ratings_B1/Chocolate_Bar_Ratings_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Chocolate_Bar_Ratings_B1/Chocolate_Bar_Ratings_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Chocolate_Bar_Ratings_B1/Chocolate_Bar_Ratings_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Chocolate_Bar_Ratings_B1/Chocolate_Bar_Ratings_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Chocolate_Bar_Ratings_B1/Chocolate_Bar_Ratings_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Forest_Fires_in_Brazil_B1/Forest_Fires_in_Brazil_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Forest_Fires_in_Brazil_B1/Forest_Fires_in_Brazil_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Forest_Fires_in_Brazil_B1/Forest_Fires_in_Brazil_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Forest_Fires_in_Brazil_B1/Forest_Fires_in_Brazil_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Forest_Fires_in_Brazil_B1/Forest_Fires_in_Brazil_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Forest_Fires_in_Brazil_B1/Forest_Fires_in_Brazil_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Forest_Fires_in_Brazil_B1/Forest_Fires_in_Brazil_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Forest_Fires_in_Brazil_B1/Forest_Fires_in_Brazil_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gender_Recognition_by_Voice_B1/Gender_Recognition_by_Voice_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gender_Recognition_by_Voice_B1/Gender_Recognition_by_Voice_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gender_Recognition_by_Voice_B1/Gender_Recognition_by_Voice_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gender_Recognition_by_Voice_B1/Gender_Recognition_by_Voice_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gender_Recognition_by_Voice_B1/Gender_Recognition_by_Voice_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gender_Recognition_by_Voice_B1/Gender_Recognition_by_Voice_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gender_Recognition_by_Voice_B1/Gender_Recognition_by_Voice_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gender_Recognition_by_Voice_B1/Gender_Recognition_by_Voice_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Global_YouTube_Statistics_2023_B1/Global_YouTube_Statistics_2023_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Global_YouTube_Statistics_2023_B1/Global_YouTube_Statistics_2023_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Global_YouTube_Statistics_2023_B1/Global_YouTube_Statistics_2023_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Global_YouTube_Statistics_2023_B1/Global_YouTube_Statistics_2023_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Global_YouTube_Statistics_2023_B1/Global_YouTube_Statistics_2023_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Global_YouTube_Statistics_2023_B1/Global_YouTube_Statistics_2023_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Global_YouTube_Statistics_2023_B1/Global_YouTube_Statistics_2023_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Global_YouTube_Statistics_2023_B1/Global_YouTube_Statistics_2023_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gun_Violence_Data_B1/Gun_Violence_Data_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gun_Violence_Data_B1/Gun_Violence_Data_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gun_Violence_Data_B1/Gun_Violence_Data_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gun_Violence_Data_B1/Gun_Violence_Data_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gun_Violence_Data_B1/Gun_Violence_Data_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gun_Violence_Data_B1/Gun_Violence_Data_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gun_Violence_Data_B1/Gun_Violence_Data_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Gun_Violence_Data_B1/Gun_Violence_Data_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Hotel_booking_Demand_B1/Hotel_booking_Demand_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Hotel_booking_Demand_B1/Hotel_booking_Demand_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Hotel_booking_Demand_B1/Hotel_booking_Demand_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Hotel_booking_Demand_B1/Hotel_booking_Demand_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Hotel_booking_Demand_B1/Hotel_booking_Demand_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Hotel_booking_Demand_B1/Hotel_booking_Demand_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Hotel_booking_Demand_B1/Hotel_booking_Demand_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Hotel_booking_Demand_B1/Hotel_booking_Demand_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1/IBM_HR_Analytics_Employee_Attrition_&_Performance_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Mobile_Price_Classification_B1/Mobile_Price_Classification_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Mobile_Price_Classification_B1/Mobile_Price_Classification_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Mobile_Price_Classification_B1/Mobile_Price_Classification_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Mobile_Price_Classification_B1/Mobile_Price_Classification_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Mobile_Price_Classification_B1/Mobile_Price_Classification_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Mobile_Price_Classification_B1/Mobile_Price_Classification_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Mobile_Price_Classification_B1/Mobile_Price_Classification_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Mobile_Price_Classification_B1/Mobile_Price_Classification_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Rain_in_Australia_B1/Rain_in_Australia_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Rain_in_Australia_B1/Rain_in_Australia_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Rain_in_Australia_B1/Rain_in_Australia_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Rain_in_Australia_B1/Rain_in_Australia_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Rain_in_Australia_B1/Rain_in_Australia_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Rain_in_Australia_B1/Rain_in_Australia_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Rain_in_Australia_B1/Rain_in_Australia_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Rain_in_Australia_B1/Rain_in_Australia_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Student_Performance_Factors_B1/Student_Performance_Factors_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Student_Performance_Factors_B1/Student_Performance_Factors_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Student_Performance_Factors_B1/Student_Performance_Factors_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Student_Performance_Factors_B1/Student_Performance_Factors_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Student_Performance_Factors_B1/Student_Performance_Factors_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Student_Performance_Factors_B1/Student_Performance_Factors_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Student_Performance_Factors_B1/Student_Performance_Factors_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Student_Performance_Factors_B1/Student_Performance_Factors_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Wine_Quality_Dataset_B1/Wine_Quality_Dataset_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Wine_Quality_Dataset_B1/Wine_Quality_Dataset_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Wine_Quality_Dataset_B1/Wine_Quality_Dataset_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Wine_Quality_Dataset_B1/Wine_Quality_Dataset_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Wine_Quality_Dataset_B1/Wine_Quality_Dataset_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Wine_Quality_Dataset_B1/Wine_Quality_Dataset_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Wine_Quality_Dataset_B1/Wine_Quality_Dataset_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/daily/Wine_Quality_Dataset_B1/Wine_Quality_Dataset_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Bitcoin_Historical_Data_B1/Bitcoin_Historical_Data_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Bitcoin_Historical_Data_B1/Bitcoin_Historical_Data_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Bitcoin_Historical_Data_B1/Bitcoin_Historical_Data_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Bitcoin_Historical_Data_B1/Bitcoin_Historical_Data_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Bitcoin_Historical_Data_B1/Bitcoin_Historical_Data_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Bitcoin_Historical_Data_B1/Bitcoin_Historical_Data_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Bitcoin_Historical_Data_B1/Bitcoin_Historical_Data_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Bitcoin_Historical_Data_B1/Bitcoin_Historical_Data_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/California_Housing_Prices_B1/California_Housing_Prices_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/California_Housing_Prices_B1/California_Housing_Prices_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/California_Housing_Prices_B1/California_Housing_Prices_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/California_Housing_Prices_B1/California_Housing_Prices_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/California_Housing_Prices_B1/California_Housing_Prices_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/California_Housing_Prices_B1/California_Housing_Prices_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/California_Housing_Prices_B1/California_Housing_Prices_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/California_Housing_Prices_B1/California_Housing_Prices_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Campus_Recruitment_B1/Campus_Recruitment_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Campus_Recruitment_B1/Campus_Recruitment_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Campus_Recruitment_B1/Campus_Recruitment_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Campus_Recruitment_B1/Campus_Recruitment_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Campus_Recruitment_B1/Campus_Recruitment_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Campus_Recruitment_B1/Campus_Recruitment_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Credit_Card_customers_B1/Credit_Card_customers_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Credit_Card_customers_B1/Credit_Card_customers_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Credit_Card_customers_B1/Credit_Card_customers_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Credit_Card_customers_B1/Credit_Card_customers_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Credit_Card_customers_B1/Credit_Card_customers_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Credit_Card_customers_B1/Credit_Card_customers_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Credit_Card_customers_B1/Credit_Card_customers_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Credit_Card_customers_B1/Credit_Card_customers_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Default_of_Credit_Card_Clients_Dataset_B1/Default_of_Credit_Card_Clients_Dataset_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Default_of_Credit_Card_Clients_Dataset_B1/Default_of_Credit_Card_Clients_Dataset_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Default_of_Credit_Card_Clients_Dataset_B1/Default_of_Credit_Card_Clients_Dataset_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Default_of_Credit_Card_Clients_Dataset_B1/Default_of_Credit_Card_Clients_Dataset_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Default_of_Credit_Card_Clients_Dataset_B1/Default_of_Credit_Card_Clients_Dataset_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Default_of_Credit_Card_Clients_Dataset_B1/Default_of_Credit_Card_Clients_Dataset_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Default_of_Credit_Card_Clients_Dataset_B1/Default_of_Credit_Card_Clients_Dataset_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Default_of_Credit_Card_Clients_Dataset_B1/Default_of_Credit_Card_Clients_Dataset_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Diamonds_B1/Diamonds_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Diamonds_B1/Diamonds_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Diamonds_B1/Diamonds_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Diamonds_B1/Diamonds_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Diamonds_B1/Diamonds_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Diamonds_B1/Diamonds_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Diamonds_B1/Diamonds_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Diamonds_B1/Diamonds_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Health_Insurance_Cross_Sell_Prediction_B1/Health_Insurance_Cross_Sell_Prediction_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Health_Insurance_Cross_Sell_Prediction_B1/Health_Insurance_Cross_Sell_Prediction_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Health_Insurance_Cross_Sell_Prediction_B1/Health_Insurance_Cross_Sell_Prediction_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Health_Insurance_Cross_Sell_Prediction_B1/Health_Insurance_Cross_Sell_Prediction_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Health_Insurance_Cross_Sell_Prediction_B1/Health_Insurance_Cross_Sell_Prediction_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Health_Insurance_Cross_Sell_Prediction_B1/Health_Insurance_Cross_Sell_Prediction_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Health_Insurance_Cross_Sell_Prediction_B1/Health_Insurance_Cross_Sell_Prediction_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Health_Insurance_Cross_Sell_Prediction_B1/Health_Insurance_Cross_Sell_Prediction_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/House_Sales_in_King_County_USA_B1/House_Sales_in_King_County_USA_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/House_Sales_in_King_County_USA_B1/House_Sales_in_King_County_USA_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/House_Sales_in_King_County_USA_B1/House_Sales_in_King_County_USA_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/House_Sales_in_King_County_USA_B1/House_Sales_in_King_County_USA_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/House_Sales_in_King_County_USA_B1/House_Sales_in_King_County_USA_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/House_Sales_in_King_County_USA_B1/House_Sales_in_King_County_USA_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/House_Sales_in_King_County_USA_B1/House_Sales_in_King_County_USA_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/House_Sales_in_King_County_USA_B1/House_Sales_in_King_County_USA_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Mall_Customer_Segmentation_Data_B1/Mall_Customer_Segmentation_Data_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Mall_Customer_Segmentation_Data_B1/Mall_Customer_Segmentation_Data_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Mall_Customer_Segmentation_Data_B1/Mall_Customer_Segmentation_Data_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Mall_Customer_Segmentation_Data_B1/Mall_Customer_Segmentation_Data_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Mall_Customer_Segmentation_Data_B1/Mall_Customer_Segmentation_Data_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Mall_Customer_Segmentation_Data_B1/Mall_Customer_Segmentation_Data_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Mall_Customer_Segmentation_Data_B1/Mall_Customer_Segmentation_Data_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Mall_Customer_Segmentation_Data_B1/Mall_Customer_Segmentation_Data_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Supermarket_store_branches_sales_analysis_B1/Supermarket_store_branches_sales_analysis_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Supermarket_store_branches_sales_analysis_B1/Supermarket_store_branches_sales_analysis_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Supermarket_store_branches_sales_analysis_B1/Supermarket_store_branches_sales_analysis_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Supermarket_store_branches_sales_analysis_B1/Supermarket_store_branches_sales_analysis_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Supermarket_store_branches_sales_analysis_B1/Supermarket_store_branches_sales_analysis_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Supermarket_store_branches_sales_analysis_B1/Supermarket_store_branches_sales_analysis_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Supermarket_store_branches_sales_analysis_B1/Supermarket_store_branches_sales_analysis_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Supermarket_store_branches_sales_analysis_B1/Supermarket_store_branches_sales_analysis_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Telco_Customer_Churn_B1/Telco_Customer_Churn_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Telco_Customer_Churn_B1/Telco_Customer_Churn_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Telco_Customer_Churn_B1/Telco_Customer_Churn_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Telco_Customer_Churn_B1/Telco_Customer_Churn_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Telco_Customer_Churn_B1/Telco_Customer_Churn_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Telco_Customer_Churn_B1/Telco_Customer_Churn_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Telco_Customer_Churn_B1/Telco_Customer_Churn_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Telco_Customer_Churn_B1/Telco_Customer_Churn_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Used_Cars_Dataset_B1/Used_Cars_Dataset_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Used_Cars_Dataset_B1/Used_Cars_Dataset_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Used_Cars_Dataset_B1/Used_Cars_Dataset_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Used_Cars_Dataset_B1/Used_Cars_Dataset_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Used_Cars_Dataset_B1/Used_Cars_Dataset_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Used_Cars_Dataset_B1/Used_Cars_Dataset_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Used_Cars_Dataset_B1/Used_Cars_Dataset_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/finance/Used_Cars_Dataset_B1/Used_Cars_Dataset_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1/Breast_Cancer_Wisconsin_(Diagnostic)_Data_Set_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_Dataset_B1/Diabetes_Dataset_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_Dataset_B1/Diabetes_Dataset_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_Dataset_B1/Diabetes_Dataset_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_Dataset_B1/Diabetes_Dataset_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_Dataset_B1/Diabetes_Dataset_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_Dataset_B1/Diabetes_Dataset_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_Dataset_B1/Diabetes_Dataset_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_Dataset_B1/Diabetes_Dataset_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_prediction_dataset_B1/Diabetes_prediction_dataset_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_prediction_dataset_B1/Diabetes_prediction_dataset_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_prediction_dataset_B1/Diabetes_prediction_dataset_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_prediction_dataset_B1/Diabetes_prediction_dataset_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_prediction_dataset_B1/Diabetes_prediction_dataset_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_prediction_dataset_B1/Diabetes_prediction_dataset_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_prediction_dataset_B1/Diabetes_prediction_dataset_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Diabetes_prediction_dataset_B1/Diabetes_prediction_dataset_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_B1/Heart_Failure_Prediction_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_B1/Heart_Failure_Prediction_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_B1/Heart_Failure_Prediction_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_B1/Heart_Failure_Prediction_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_B1/Heart_Failure_Prediction_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_B1/Heart_Failure_Prediction_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_B1/Heart_Failure_Prediction_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_B1/Heart_Failure_Prediction_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_Dataset_B1/Heart_Failure_Prediction_Dataset_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_Dataset_B1/Heart_Failure_Prediction_Dataset_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_Dataset_B1/Heart_Failure_Prediction_Dataset_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_Dataset_B1/Heart_Failure_Prediction_Dataset_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_Dataset_B1/Heart_Failure_Prediction_Dataset_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_Dataset_B1/Heart_Failure_Prediction_Dataset_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_Dataset_B1/Heart_Failure_Prediction_Dataset_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Heart_Failure_Prediction_Dataset_B1/Heart_Failure_Prediction_Dataset_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Indicators_of_Heart_Disease_(2022_UPDATE)_B1/Indicators_of_Heart_Disease_(2022_UPDATE)_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Indicators_of_Heart_Disease_(2022_UPDATE)_B1/Indicators_of_Heart_Disease_(2022_UPDATE)_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Indicators_of_Heart_Disease_(2022_UPDATE)_B1/Indicators_of_Heart_Disease_(2022_UPDATE)_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Indicators_of_Heart_Disease_(2022_UPDATE)_B1/Indicators_of_Heart_Disease_(2022_UPDATE)_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Indicators_of_Heart_Disease_(2022_UPDATE)_B1/Indicators_of_Heart_Disease_(2022_UPDATE)_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Indicators_of_Heart_Disease_(2022_UPDATE)_B1/Indicators_of_Heart_Disease_(2022_UPDATE)_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Indicators_of_Heart_Disease_(2022_UPDATE)_B1/Indicators_of_Heart_Disease_(2022_UPDATE)_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Indicators_of_Heart_Disease_(2022_UPDATE)_B1/Indicators_of_Heart_Disease_(2022_UPDATE)_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Life_Expectancy_(WHO)_B1/Life_Expectancy_(WHO)_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Life_Expectancy_(WHO)_B1/Life_Expectancy_(WHO)_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Life_Expectancy_(WHO)_B1/Life_Expectancy_(WHO)_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Life_Expectancy_(WHO)_B1/Life_Expectancy_(WHO)_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Life_Expectancy_(WHO)_B1/Life_Expectancy_(WHO)_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Life_Expectancy_(WHO)_B1/Life_Expectancy_(WHO)_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Medical_Cost_Personal_Datasets_B1/Medical_Cost_Personal_Datasets_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Medical_Cost_Personal_Datasets_B1/Medical_Cost_Personal_Datasets_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Medical_Cost_Personal_Datasets_B1/Medical_Cost_Personal_Datasets_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Medical_Cost_Personal_Datasets_B1/Medical_Cost_Personal_Datasets_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Medical_Cost_Personal_Datasets_B1/Medical_Cost_Personal_Datasets_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Medical_Cost_Personal_Datasets_B1/Medical_Cost_Personal_Datasets_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Medical_Cost_Personal_Datasets_B1/Medical_Cost_Personal_Datasets_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Medical_Cost_Personal_Datasets_B1/Medical_Cost_Personal_Datasets_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Sleep_Health_and_Lifestyle_Dataset_B1/Sleep_Health_and_Lifestyle_Dataset_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Sleep_Health_and_Lifestyle_Dataset_B1/Sleep_Health_and_Lifestyle_Dataset_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Sleep_Health_and_Lifestyle_Dataset_B1/Sleep_Health_and_Lifestyle_Dataset_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Sleep_Health_and_Lifestyle_Dataset_B1/Sleep_Health_and_Lifestyle_Dataset_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Sleep_Health_and_Lifestyle_Dataset_B1/Sleep_Health_and_Lifestyle_Dataset_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Sleep_Health_and_Lifestyle_Dataset_B1/Sleep_Health_and_Lifestyle_Dataset_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Stroke_Prediction_Dataset_B1/Stroke_Prediction_Dataset_B1_001": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Stroke_Prediction_Dataset_B1/Stroke_Prediction_Dataset_B1_002": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Stroke_Prediction_Dataset_B1/Stroke_Prediction_Dataset_B1_003": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Stroke_Prediction_Dataset_B1/Stroke_Prediction_Dataset_B1_004": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Stroke_Prediction_Dataset_B1/Stroke_Prediction_Dataset_B1_005": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Stroke_Prediction_Dataset_B1/Stroke_Prediction_Dataset_B1_006": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Stroke_Prediction_Dataset_B1/Stroke_Prediction_Dataset_B1_007": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "single_point_prediction/medical/Stroke_Prediction_Dataset_B1/Stroke_Prediction_Dataset_B1_008": {
+   "scenarios": [
+    "001"
+   ],
+   "predict": [
+    "001"
+   ],
+   "reference_status": null,
+   "evidence": null
+  },
+  "treatment_effect_analysis/daily/classification/Wine_Quality_Dataset_B3/Wine_Quality_Dataset_B3_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "leading to a quality score of 6"
+  },
+  "treatment_effect_analysis/daily/classification/Wine_Quality_Dataset_B3/Wine_Quality_Dataset_B3_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "Right now, it's rated a 7 for quality."
+  },
+  "treatment_effect_analysis/daily/classification/Wine_Quality_Dataset_B3/Wine_Quality_Dataset_B3_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "It's currently graded a 5 for quality."
+  },
+  "treatment_effect_analysis/daily/regression/100000_UK_Used_Car_Data_set_B3/100000_UK_Used_Car_Data_set_B3_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The mileage is 26,514."
+  },
+  "treatment_effect_analysis/daily/regression/100000_UK_Used_Car_Data_set_B3/100000_UK_Used_Car_Data_set_B3_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_as_target",
+   "evidence": "less than 10,000 miles"
+  },
+  "treatment_effect_analysis/daily/regression/100000_UK_Used_Car_Data_set_B3/100000_UK_Used_Car_Data_set_B3_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "Staring at the classified ad for my petrol Toyota Aygo, the details are all there: 2017, manual transmission, 1.0 litre engine, £150 tax, 68.9 mpg, and a price tag of £7495 with 19,996 miles on the clock."
+  },
+  "treatment_effect_analysis/daily/regression/100000_UK_Used_Car_Data_set_B3/100000_UK_Used_Car_Data_set_B3_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The odometer is sitting at 3,755 miles, which is incredibly low."
+  },
+  "treatment_effect_analysis/daily/regression/100000_UK_Used_Car_Data_set_B3/100000_UK_Used_Car_Data_set_B3_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "My 2019 Audi A5 has just 3,860 on the clock."
+  },
+  "treatment_effect_analysis/daily/regression/100000_UK_Used_Car_Data_set_B3/100000_UK_Used_Car_Data_set_B3_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The odometer reads 37,412."
+  },
+  "treatment_effect_analysis/daily/regression/100000_UK_Used_Car_Data_set_B3/100000_UK_Used_Car_Data_set_B3_007": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "Bought it for £8,491, and it's done 24,343 miles."
+  },
+  "treatment_effect_analysis/daily/regression/100000_UK_Used_Car_Data_set_B3/100000_UK_Used_Car_Data_set_B3_008": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "Getting 61.4 miles to the gallon has saved a fortune on fuel, and I bought it for £13,500 with just 2,217 miles on the clock—practically new."
+  },
+  "treatment_effect_analysis/daily/regression/100000_UK_Used_Car_Data_set_B3/100000_UK_Used_Car_Data_set_B3_009": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The 2.0 engine manages 41.5 mpg, and they're asking £18,399 for it, but it's already done 21,000 miles."
+  },
+  "treatment_effect_analysis/daily/regression/100000_UK_Used_Car_Data_set_B3/100000_UK_Used_Car_Data_set_B3_010": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The biggest selling point is its near-new mileage of 9,027."
+  },
+  "treatment_effect_analysis/daily/regression/Chocolate_Bar_Ratings_B3/Chocolate_Bar_Ratings_B3_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "It only scores a 3.0."
+  },
+  "treatment_effect_analysis/daily/regression/Chocolate_Bar_Ratings_B3/Chocolate_Bar_Ratings_B3_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The expert score was only 2.75, which feels a bit disappointing."
+  },
+  "treatment_effect_analysis/daily/regression/Chocolate_Bar_Ratings_B3/Chocolate_Bar_Ratings_B3_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_as_target",
+   "evidence": "I really want it to be rated a 3.0."
+  },
+  "treatment_effect_analysis/daily/regression/Chocolate_Bar_Ratings_B3/Chocolate_Bar_Ratings_B3_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_as_target",
+   "evidence": "reach my target of 3.5"
+  },
+  "treatment_effect_analysis/daily/regression/Chocolate_Bar_Ratings_B3/Chocolate_Bar_Ratings_B3_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "maker, using Trinitario beans from Vietnam, but it only got a 2.75 rating."
+  },
+  "treatment_effect_analysis/daily/regression/Chocolate_Bar_Ratings_B3/Chocolate_Bar_Ratings_B3_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The expert rating it got back then was only a 2.5."
+  },
+  "treatment_effect_analysis/daily/regression/Chocolate_Bar_Ratings_B3/Chocolate_Bar_Ratings_B3_007": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "This chocolate bar from Spain with a 72% cocoa content was reviewed back in 2009, and it got a rating I'm hoping to improve from 2.75."
+  },
+  "treatment_effect_analysis/daily/regression/Chocolate_Bar_Ratings_B3/Chocolate_Bar_Ratings_B3_008": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_as_target",
+   "evidence": "past my goal of 3.25"
+  },
+  "treatment_effect_analysis/daily/regression/Chocolate_Bar_Ratings_B3/Chocolate_Bar_Ratings_B3_009": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "A 2.25 rating just isn't cutting it for this 2010-vintage bar (REF 600), even with its appealing 75% cocoa and U.S."
+  },
+  "treatment_effect_analysis/daily/regression/Chocolate_Bar_Ratings_B3/Chocolate_Bar_Ratings_B3_010": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": "not_stated",
+   "evidence": null
+  },
+  "treatment_effect_analysis/daily/regression/Gun_Violence_Data_B3/Gun_Violence_Data_B3_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "nobody was killed"
+  },
+  "treatment_effect_analysis/daily/regression/Gun_Violence_Data_B3/Gun_Violence_Data_B3_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "no one was killed"
+  },
+  "treatment_effect_analysis/daily/regression/Gun_Violence_Data_B3/Gun_Violence_Data_B3_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "But one person still died."
+  },
+  "treatment_effect_analysis/daily/regression/Gun_Violence_Data_B3/Gun_Violence_Data_B3_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "zero killed"
+  },
+  "treatment_effect_analysis/daily/regression/Gun_Violence_Data_B3/Gun_Violence_Data_B3_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "shows zero deaths"
+  },
+  "treatment_effect_analysis/daily/regression/Gun_Violence_Data_B3/Gun_Violence_Data_B3_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "one person killed"
+  },
+  "treatment_effect_analysis/daily/regression/Gun_Violence_Data_B3/Gun_Violence_Data_B3_007": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "but one person was killed"
+  },
+  "treatment_effect_analysis/daily/regression/Gun_Violence_Data_B3/Gun_Violence_Data_B3_008": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "It resulted in one person killed"
+  },
+  "treatment_effect_analysis/daily/regression/Gun_Violence_Data_B3/Gun_Violence_Data_B3_009": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "but no fatalities"
+  },
+  "treatment_effect_analysis/daily/regression/Gun_Violence_Data_B3/Gun_Violence_Data_B3_010": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "no one killed"
+  },
+  "treatment_effect_analysis/finance/classification/Health_Insurance_Cross_Sell_Prediction_B3/Health_Insurance_Cross_Sell_Prediction_B3_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "The target flag is currently 'not interested'."
+  },
+  "treatment_effect_analysis/finance/classification/Health_Insurance_Cross_Sell_Prediction_B3/Health_Insurance_Cross_Sell_Prediction_B3_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_conflicts_gold",
+   "evidence": "He is not be interested."
+  },
+  "treatment_effect_analysis/finance/classification/Health_Insurance_Cross_Sell_Prediction_B3/Health_Insurance_Cross_Sell_Prediction_B3_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "Currently, she's not interested"
+  },
+  "treatment_effect_analysis/finance/classification/Health_Insurance_Cross_Sell_Prediction_B3/Health_Insurance_Cross_Sell_Prediction_B3_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "currently not interested"
+  },
+  "treatment_effect_analysis/finance/classification/Health_Insurance_Cross_Sell_Prediction_B3/Health_Insurance_Cross_Sell_Prediction_B3_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "I'm now not interested in buying more coverage."
+  },
+  "treatment_effect_analysis/finance/classification/Health_Insurance_Cross_Sell_Prediction_B3/Health_Insurance_Cross_Sell_Prediction_B3_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "it sees she is interested"
+  },
+  "treatment_effect_analysis/finance/classification/Health_Insurance_Cross_Sell_Prediction_B3/Health_Insurance_Cross_Sell_Prediction_B3_007": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "The target flag is set to 'not interested'."
+  },
+  "treatment_effect_analysis/finance/classification/Health_Insurance_Cross_Sell_Prediction_B3/Health_Insurance_Cross_Sell_Prediction_B3_008": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "The target is 'not interested'."
+  },
+  "treatment_effect_analysis/finance/classification/Health_Insurance_Cross_Sell_Prediction_B3/Health_Insurance_Cross_Sell_Prediction_B3_009": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "Right now, I'm not interested"
+  },
+  "treatment_effect_analysis/finance/classification/Health_Insurance_Cross_Sell_Prediction_B3/Health_Insurance_Cross_Sell_Prediction_B3_010": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "this interested lead"
+  },
+  "treatment_effect_analysis/finance/regression/Data_Science_Job_Salaries_B3/Data_Science_Job_Salaries_B3_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "It's a fully remote Data Analyst position from 2022, where I'm a senior-level (SE) full-time employee for a medium-sized US company, also based in the US, earning exactly 105,000 USD."
+  },
+  "treatment_effect_analysis/finance/regression/Data_Science_Job_Salaries_B3/Data_Science_Job_Salaries_B3_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "This current Data Analyst gig is solid: a full-time, mid-level role at a US-based medium company, paying 126,500 USD for work done in 2022."
+  },
+  "treatment_effect_analysis/finance/regression/Data_Science_Job_Salaries_B3/Data_Science_Job_Salaries_B3_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "A friend in HR mentioned internal listing: a fully remote, senior Data Analyst spot from 2022 at a medium US firm, salary locked at $115,934."
+  },
+  "treatment_effect_analysis/finance/regression/Data_Science_Job_Salaries_B3/Data_Science_Job_Salaries_B3_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "Currently in a senior, full-time Data Analyst spot from 2022, earning 99050 USD while living and working for a medium US company, all from home with a 100% remote setup."
+  },
+  "treatment_effect_analysis/finance/regression/Data_Science_Job_Salaries_B3/Data_Science_Job_Salaries_B3_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The offer letter from 2022 is still on the desk: Senior Data Engineer, full-time, 128875 USD, fully remote, with both me and the medium-sized company located in the US."
+  },
+  "treatment_effect_analysis/finance/regression/Data_Science_Job_Salaries_B3/Data_Science_Job_Salaries_B3_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The package was 120,000 USD for a full-time role, which seemed fair."
+  },
+  "treatment_effect_analysis/finance/regression/Data_Science_Job_Salaries_B3/Data_Science_Job_Salaries_B3_007": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The current profile is all about that stable, full-time Data Architect life from 2021—mid-level, fully remote, at a large US firm for 150,000 USD."
+  },
+  "treatment_effect_analysis/finance/regression/Data_Science_Job_Salaries_B3/Data_Science_Job_Salaries_B3_008": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "A Senior-level, full-time Data Analyst role in 2022, pulling in 116,000 USD while residing and working in the US for a medium-sized company."
+  },
+  "treatment_effect_analysis/finance/regression/Data_Science_Job_Salaries_B3/Data_Science_Job_Salaries_B3_009": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "A salary of 158200 USD in 2022 for a Senior-level, full-time Data Scientist in the US, working fully remote for a large US company, sounds ideal on paper."
+  },
+  "treatment_effect_analysis/finance/regression/Data_Science_Job_Salaries_B3/Data_Science_Job_Salaries_B3_010": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "That offer letter from 2022 is still the baseline: a full-time senior role, Data Architect, with a 100% remote ratio, employee residence and company location both in the US, at a medium-sized business for 144,854 USD."
+  },
+  "treatment_effect_analysis/finance/regression/Diamonds_B3/Diamonds_B3_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "Priced at $473."
+  },
+  "treatment_effect_analysis/finance/regression/Diamonds_B3/Diamonds_B3_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "It measures 4.43 x 4.48 x 2.73 mm, has a 61.3 depth and a 56.0 table, all for a 0.33 carat weight priced at $1130."
+  },
+  "treatment_effect_analysis/finance/regression/Diamonds_B3/Diamonds_B3_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "It's currently valued at $4,380."
+  },
+  "treatment_effect_analysis/finance/regression/Diamonds_B3/Diamonds_B3_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The certificate for this diamond lists it: 0.55 carats, Ideal cut, G color, SI2 clarity, 62.1 depth, a 56 table, and measurements of 5.25, 5.28, and 3.27 mm, valued at $1,173."
+  },
+  "treatment_effect_analysis/finance/regression/Diamonds_B3/Diamonds_B3_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "Right now, it's priced at $2,501."
+  },
+  "treatment_effect_analysis/finance/regression/Diamonds_B3/Diamonds_B3_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The measurements are quite specific: 61.6 depth, a 56 table, and length, width, and depth of 4.4, 4.43, and 2.72 mm respectively, carrying a $459 tag."
+  },
+  "treatment_effect_analysis/finance/regression/Diamonds_B3/Diamonds_B3_007": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The insurance valuation is $1,448."
+  },
+  "treatment_effect_analysis/finance/regression/Diamonds_B3/Diamonds_B3_008": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "Looking at this diamond the specs show a 0.3 carat Ideal cut, G color, VVS2 clarity, 62.7 depth, a 57.0 table, and dimensions of 4.29 x 4.26 x 2.68mm for $878."
+  },
+  "treatment_effect_analysis/finance/regression/Diamonds_B3/Diamonds_B3_009": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The tag says $917."
+  },
+  "treatment_effect_analysis/finance/regression/Diamonds_B3/Diamonds_B3_010": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "It was last appraised at $9,317."
+  },
+  "treatment_effect_analysis/finance/regression/Mall_Customer_Segmentation_Data_B3/Mall_Customer_Segmentation_Data_B3_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "With a spending score of 16, the perks are nonexistent."
+  },
+  "treatment_effect_analysis/finance/regression/Mall_Customer_Segmentation_Data_B3/Mall_Customer_Segmentation_Data_B3_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "I'm a 31-year-old woman, currently making $70,000 a year, and my spending score from the mall is at a 77."
+  },
+  "treatment_effect_analysis/finance/regression/Mall_Customer_Segmentation_Data_B3/Mall_Customer_Segmentation_Data_B3_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "He's got a spending score of 59 right now from the mall's system."
+  },
+  "treatment_effect_analysis/finance/regression/Mall_Customer_Segmentation_Data_B3/Mall_Customer_Segmentation_Data_B3_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "My spending score is stuck at 28."
+  },
+  "treatment_effect_analysis/finance/regression/Mall_Customer_Segmentation_Data_B3/Mall_Customer_Segmentation_Data_B3_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "For a woman earning 78 thousand a year, a spending score of just 22 seems surprisingly low."
+  },
+  "treatment_effect_analysis/finance/regression/Mall_Customer_Segmentation_Data_B3/Mall_Customer_Segmentation_Data_B3_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": "not_stated",
+   "evidence": null
+  },
+  "treatment_effect_analysis/finance/regression/Mall_Customer_Segmentation_Data_B3/Mall_Customer_Segmentation_Data_B3_007": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "My spending score at the mall is currently a 72, which feels okay, but I'm always budgeting."
+  },
+  "treatment_effect_analysis/finance/regression/Mall_Customer_Segmentation_Data_B3/Mall_Customer_Segmentation_Data_B3_008": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "Right now, it says I'm a 38-year-old male making 54 thousand dollars a year, and my score is a 55."
+  },
+  "treatment_effect_analysis/finance/regression/Mall_Customer_Segmentation_Data_B3/Mall_Customer_Segmentation_Data_B3_009": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "Staring at this profile—male, 47, making 43k a year with a spending score of 41—it feels very middle-of-the-road."
+  },
+  "treatment_effect_analysis/finance/regression/Mall_Customer_Segmentation_Data_B3/Mall_Customer_Segmentation_Data_B3_010": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The low spending score of 7 is honestly a bit of a puzzle."
+  },
+  "treatment_effect_analysis/finance/regression/Supermarket_store_branches_sales_analysis_B3/Supermarket_store_branches_sales_analysis_B3_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_as_target",
+   "evidence": "sales target is $84,840"
+  },
+  "treatment_effect_analysis/finance/regression/Supermarket_store_branches_sales_analysis_B3/Supermarket_store_branches_sales_analysis_B3_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "That all adds up to sales of around $74,160."
+  },
+  "treatment_effect_analysis/finance/regression/Supermarket_store_branches_sales_analysis_B3/Supermarket_store_branches_sales_analysis_B3_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": "not_stated",
+   "evidence": null
+  },
+  "treatment_effect_analysis/finance/regression/Supermarket_store_branches_sales_analysis_B3/Supermarket_store_branches_sales_analysis_B3_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "A 1,622 square yard store with 1,968 products can feel quiet with only 210 average daily visitors, even if sales are at $64,780."
+  },
+  "treatment_effect_analysis/finance/regression/Supermarket_store_branches_sales_analysis_B3/Supermarket_store_branches_sales_analysis_B3_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "ninety-four thousand, six hundred and ninety dollars"
+  },
+  "treatment_effect_analysis/finance/regression/Supermarket_store_branches_sales_analysis_B3/Supermarket_store_branches_sales_analysis_B3_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": "not_stated",
+   "evidence": null
+  },
+  "treatment_effect_analysis/finance/regression/Supermarket_store_branches_sales_analysis_B3/Supermarket_store_branches_sales_analysis_B3_007": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "Facing a 1,451 square yard space stocked with 1,748 items, the daily flow of 620 customers results in store sales of $53,730."
+  },
+  "treatment_effect_analysis/finance/regression/Supermarket_store_branches_sales_analysis_B3/Supermarket_store_branches_sales_analysis_B3_008": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "I need to know if this action saves the sales target, or more specifically, if it will push us past that current mark of $35,220 in a meaningful way."
+  },
+  "treatment_effect_analysis/finance/regression/Supermarket_store_branches_sales_analysis_B3/Supermarket_store_branches_sales_analysis_B3_009": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "To hit a higher sales target than the current $53,940, management is considering a specific move: leasing the adjacent storage room to add 87 square yards, making the total area 1588, and using that space to introduce over a hundred new specialty items, bringing the total to 1906."
+  },
+  "treatment_effect_analysis/finance/regression/Supermarket_store_branches_sales_analysis_B3/Supermarket_store_branches_sales_analysis_B3_010": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The current setup—1491 square yards, 1800 available products, and roughly 980 customers a day—brings in sales of $75,620."
+  },
+  "treatment_effect_analysis/medical/classification/Diabetes_Dataset_B3/Diabetes_Dataset_B3_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "meaning no diabetes"
+  },
+  "treatment_effect_analysis/medical/classification/Diabetes_Dataset_B3/Diabetes_Dataset_B3_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "The target outcome is currently positive."
+  },
+  "treatment_effect_analysis/medical/classification/Stroke_Prediction_Dataset_B3/Stroke_Prediction_Dataset_B3_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "he has not had a stroke"
+  },
+  "treatment_effect_analysis/medical/classification/Stroke_Prediction_Dataset_B3/Stroke_Prediction_Dataset_B3_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "the records show her target for a stroke event is 0"
+  },
+  "treatment_effect_analysis/medical/classification/Stroke_Prediction_Dataset_B3/Stroke_Prediction_Dataset_B3_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": "not_stated",
+   "evidence": null
+  },
+  "treatment_effect_analysis/medical/classification/Stroke_Prediction_Dataset_B3/Stroke_Prediction_Dataset_B3_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": "not_stated",
+   "evidence": null
+  },
+  "treatment_effect_analysis/medical/classification/Stroke_Prediction_Dataset_B3/Stroke_Prediction_Dataset_B3_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "with no stroke"
+  },
+  "treatment_effect_analysis/medical/classification/Stroke_Prediction_Dataset_B3/Stroke_Prediction_Dataset_B3_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "And yes, I had the stroke."
+  },
+  "treatment_effect_analysis/medical/classification/Stroke_Prediction_Dataset_B3/Stroke_Prediction_Dataset_B3_007": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": "implied",
+   "evidence": "shift him away from having a stroke"
+  },
+  "treatment_effect_analysis/medical/classification/Stroke_Prediction_Dataset_B3/Stroke_Prediction_Dataset_B3_008": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": "implied",
+   "evidence": "Facing a high stroke prediction"
+  },
+  "treatment_effect_analysis/medical/classification/Stroke_Prediction_Dataset_B3/Stroke_Prediction_Dataset_B3_009": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "001",
+    "002"
+   ],
+   "reference_status": "implied",
+   "evidence": "pull me out of the high-risk stroke category"
+  },
+  "treatment_effect_analysis/medical/classification/Stroke_Prediction_Dataset_B3/Stroke_Prediction_Dataset_B3_010": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "from a 'yes' to a 'no'"
+  },
+  "treatment_effect_analysis/medical/regression/Medical_Cost_Personal_Datasets_B3/Medical_Cost_Personal_Datasets_B3_001": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "My insurance charges are currently $1,744.47."
+  },
+  "treatment_effect_analysis/medical/regression/Medical_Cost_Personal_Datasets_B3/Medical_Cost_Personal_Datasets_B3_002": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "My medical costs are currently at $1,534.30."
+  },
+  "treatment_effect_analysis/medical/regression/Medical_Cost_Personal_Datasets_B3/Medical_Cost_Personal_Datasets_B3_003": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "medical charges at $3935"
+  },
+  "treatment_effect_analysis/medical/regression/Medical_Cost_Personal_Datasets_B3/Medical_Cost_Personal_Datasets_B3_004": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "My current BMI is 33.63, and I'm not a smoker, but my last medical charge was still $3579.83."
+  },
+  "treatment_effect_analysis/medical/regression/Medical_Cost_Personal_Datasets_B3/Medical_Cost_Personal_Datasets_B3_005": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_as_target",
+   "evidence": "That medical cost target of $9,850.43"
+  },
+  "treatment_effect_analysis/medical/regression/Medical_Cost_Personal_Datasets_B3/Medical_Cost_Personal_Datasets_B3_006": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "The current medical bill is a shock at $19,594.81 for a 44-year-old female in the northeast with one dependent."
+  },
+  "treatment_effect_analysis/medical/regression/Medical_Cost_Personal_Datasets_B3/Medical_Cost_Personal_Datasets_B3_007": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_textual",
+   "evidence": "about $1,615 last year"
+  },
+  "treatment_effect_analysis/medical/regression/Medical_Cost_Personal_Datasets_B3/Medical_Cost_Personal_Datasets_B3_008": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "My health insurance costs are currently $4,441.21, which honestly isn't terrible for a non-smoking male with a BMI of 26.885."
+  },
+  "treatment_effect_analysis/medical/regression/Medical_Cost_Personal_Datasets_B3/Medical_Cost_Personal_Datasets_B3_009": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "My current medical cost is billed at $6079.67."
+  },
+  "treatment_effect_analysis/medical/regression/Medical_Cost_Personal_Datasets_B3/Medical_Cost_Personal_Datasets_B3_010": {
+   "scenarios": [
+    "001",
+    "002"
+   ],
+   "predict": [
+    "002"
+   ],
+   "reference_status": "stated_literal",
+   "evidence": "Staring at this insurance bill of $3,062.51 for a non-smoking 28-year-old guy with no dependents, it feels like a lot."
+  }
+ }
+}

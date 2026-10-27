@@ -1,0 +1,32 @@
+The files in this directory are derived from TopBench:
+
+  TopBench: A Benchmark for Implicit Predictive Reasoning in Tabular Question Answering
+  An-Yang Ji, Jun-Peng Jiang, De-Chuan Zhan, Han-Jia Ye
+  https://github.com/LAMDA-Tabular/TopBench
+  https://huggingface.co/datasets/LAMDA-Tabular/TopBench
+  Licensed under the MIT License. Copyright (c) the TopBench authors.
+
+Derived files:
+  reference_query_rows.json  per-request lists of the TopBench scenarios to predict, with
+                             quotations from the TopBench requests
+  splits.json                cross-validation folds over the TopBench source tables
+  ttrd/fold*.jsonl           TopBench requests with TFM predictions and teacher responses
+
+TopBench itself is not redistributed here; download it as described in the repository README.
+
+The MIT License of TopBench:
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+  and associated documentation files (the "Software"), to deal in the Software without
+  restriction, including without limitation the rights to use, copy, modify, merge, publish,
+  distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the
+  Software is furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all copies or
+  substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+  BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+  DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -1,0 +1,34 @@
+# TabPilot inference configuration (Qwen3.5-4B agents in non-thinking mode, frozen TFM).
+seed: 42
+
+execution_agent:
+  max_turns: 10
+  sampling:
+    temperature: 0.7
+    top_p: 0.8
+    top_k: 20
+    min_p: 0.0
+    presence_penalty: 1.5
+    repetition_penalty: 1.0
+    max_tokens: 4096
+
+response_agent:
+  sampling:
+    temperature: 0.1
+    top_p: 0.8
+    top_k: 20
+    min_p: 0.0
+    presence_penalty: 0.0
+    repetition_penalty: 1.0
+    max_tokens: 1024
+
+tfm:
+  # The frozen TFM (plug-and-play, the agents are unchanged): tabpfn_v3_5 (default, used in the
+  # paper's main results), tabicl_v2 or limix_2 (weights under checkpoints/tfm, see the README).
+  backend: tabpfn_v3_5
+  # History rows above this cap are subsampled (fixed seed, keeping every queried category).
+  max_context_rows: 100000
+  max_context_features: null
+  # Optional: which column kinds reach the TFM. Defaults to every kind the backend officially
+  # supports (limix_2 has no text encoder, so text columns and string identifiers are left out).
+  # model_features: {datetime: true, text: true, identifiers: true}
