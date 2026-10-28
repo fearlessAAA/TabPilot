@@ -87,16 +87,9 @@ and then TabPilot with `pip install -e ".[train]"`.
 
 ## TopBench
 
-TopBench is not included. Put its code and data under `benchmarks/topbench/`:
+Download the publicly available [TopBench](https://github.com/LAMDA-Tabular/TopBench). Put its code and data under `benchmarks/topbench/`:
 
-```bash
-git clone https://github.com/LAMDA-Tabular/TopBench benchmarks/topbench
-pip install -e benchmarks/topbench
-hf download LAMDA-Tabular/TopBench --repo-type dataset --local-dir benchmarks/topbench/data
-```
-
-TabPilot reads requests from `benchmarks/topbench/data/` (override with `--benchmark-root`) and
-calls the TopBench evaluators in `benchmarks/topbench/src/`. It never writes into that directory.
+TabPilot reads requests from `benchmarks/topbench/data/` (override with `--benchmark-root`) and calls the TopBench evaluators in `benchmarks/topbench/src/`. It never writes into that directory.
 
 ## Inference
 
@@ -236,3 +229,7 @@ SA-GRPO).
 ## License
 
 MIT (see `LICENSE`). The files in `data/` are derived from TopBench (MIT); see `data/NOTICE`.
+
+## Acknowledgments
+This work benefits from the previous excellent work of [TopBench](https://github.com/LAMDA-Tabular/TopBench), [Qwen3.5-4B](https://huggingface.co/Qwen/Qwen3.5-4B), [TabPFN3.5](https://arxiv.org/abs/2609.17895), and [ms-swift
+](https://github.com/modelscope/ms-swift).
